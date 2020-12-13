@@ -1,0 +1,19 @@
+[2020-12-13 18:50:18,268 INFO] Trained model loaded from models/sota/checkpoint_15.pt
+[2020-12-13 18:50:18,269 INFO] Creating pseudo-labels
+[2020-12-13 18:50:18,325 INFO] 6501 lines in data/sentiment_dataset_test.csv.
+[2020-12-13 18:50:20,973 INFO] Data loader running
+[2020-12-13 18:50:20,974 INFO] Done
+[2020-12-13 18:51:25,148 INFO] predictions written to output/sota_output.csv
+[2020-12-13 18:51:25,167 INFO] Loading datasets
+[2020-12-13 18:51:25,169 INFO] Loading dataset from data/sentiment_dataset_test.csv
+[2020-12-13 18:51:25,219 INFO] 6501 lines in data/sentiment_dataset_test.csv.
+[2020-12-13 18:51:25,219 INFO] Loading dataset from data/sentiment_dataset_train.csv
+[2020-12-13 18:51:25,569 INFO] 35005 lines in data/sentiment_dataset_train.csv.
+[2020-12-13 18:51:25,569 INFO] Loading dataset from data/sentiment_dataset_dev.csv
+[2020-12-13 18:51:25,636 INFO] 7500 lines in data/sentiment_dataset_dev.csv.
+[2020-12-13 18:51:25,636 INFO] Loading dataset from data/sota_output.csv
+[2020-12-13 18:51:25,701 INFO] 6501 lines in data/sota_output.csv.
+[2020-12-13 18:51:25,704 INFO] 41504 train samples
+[2020-12-13 18:51:25,704 INFO] 7504 dev samples
+[2020-12-13 18:51:25,704 INFO] 6500 test samples
+[2020-12-13 18:51:42,414 INFO] Data loader running
