@@ -5,7 +5,7 @@
 
 `%cd "/content/drive/MyDrive/Sentiment Analysis"`
 
-*Install requirements*
+* Install requirements *
 
 `!pip install tensorflow==1.10`
 
