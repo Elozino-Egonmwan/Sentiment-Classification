@@ -11,7 +11,7 @@
 
 `!pip install transformers`
 
-* [Download](https://drive.google.com/file/d/1Qow1sCYsMbG-sfwVWVsSyDM1eXwNNQYt/view?usp=sharing) the checkpoint for the SOTA model and place in "models/sota/"
+* [Download](https://drive.google.com/file/d/1Qow1sCYsMbG-sfwVWVsSyDM1eXwNNQYt/view?usp=sharing) the checkpoint for the SOTA model and place in `"models/sota/"`
 
 * Run the SOTA model in test mode to predict ratings on the .dev set
 
