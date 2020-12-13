@@ -1,6 +1,10 @@
 # Sentiment Classification
 * An overview of this task and the presented models can be found [here](https://drive.google.com/file/d/1bvA7Ryw3u7pPzBs-DJ-Bz-wIflXK9vN_/view?usp=sharing)
 
+* See predictions and evaluations in `output` folder
+
+# Follow these steps to reproduce results
+
 * Change directory to 'Sentiment Analysis'
 
 `%cd "/content/drive/MyDrive/Sentiment Analysis"`
@@ -30,5 +34,3 @@
 * To repeat the 'train', 'test' or 'inference' modes on the `baseline model` simply change model choice to `baseline`
 
 `!python src/sent_analysis.py -model 'baseline' -mode 'test'`
-
-* See predictions and evaluations in `output` folder
