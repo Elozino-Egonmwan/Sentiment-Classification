@@ -24,3 +24,7 @@
  `!python src/sent_analysis.py -model 'sota' -mode 'inference' -test_file 'data/sentiment_dataset_test.csv'`
  
 > train mode
+
+`!python src/sent_analysis.py -model 'sota' -mode 'test'``
+
+* To repeat the 'train', 'test' or 'inference' modes on the baseline model simply change model choice to 'baseline'
