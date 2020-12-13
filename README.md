@@ -17,6 +17,10 @@
 
 > test mode
 
-> `!python src/sent_analysis.py -model 'sota' -mode 'test'`
+`!python src/sent_analysis.py -model 'sota' -mode 'test'`
 
-> `!python src/sent_analysis.py -model 'sota' -mode 'inference' -test_file 'data/sentiment_dataset_test.csv'`
+> inference mode
+
+ `!python src/sent_analysis.py -model 'sota' -mode 'inference' -test_file 'data/sentiment_dataset_test.csv'`
+ 
+> train mode
