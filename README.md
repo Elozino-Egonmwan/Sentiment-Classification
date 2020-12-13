@@ -30,3 +30,5 @@
 * To repeat the 'train', 'test' or 'inference' modes on the `baseline model` simply change model choice to `baseline`
 
 `!python src/sent_analysis.py -model 'baseline' -mode 'test'`
+
+* See outputs in `output` folder and evaluation results in 
