@@ -13,6 +13,10 @@
 
 * [Download](https://drive.google.com/file/d/1Qow1sCYsMbG-sfwVWVsSyDM1eXwNNQYt/view?usp=sharing) the checkpoint for the SOTA model and place in `"models/sota/"`
 
-* Run the SOTA model in test mode to predict ratings on the .dev set
+* Run the SOTA model in
 
-`!python src/sent_analysis.py -model 'sota' -mode 'test'`
+> test mode
+
+> `!python src/sent_analysis.py -model 'sota' -mode 'test'`
+
+> `!python src/sent_analysis.py -model 'sota' -mode 'inference' -test_file 'data/sentiment_dataset_test.csv'`
