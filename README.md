@@ -3,7 +3,7 @@
 
 * Change directory to 'Sentiment Analysis'
 
-'%cd "/content/drive/MyDrive/Sentiment Analysis"'
+<%cd "/content/drive/MyDrive/Sentiment Analysis">
 
 Install requirements
 
