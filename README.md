@@ -5,9 +5,9 @@
 
 `%cd "/content/drive/MyDrive/Sentiment Analysis"`
 
-Install requirements
+*Install requirements*
 
-!pip install tensorflow==1.10
+`!pip install tensorflow==1.10`
 
-!pip install transformers
+`!pip install transformers`
 
