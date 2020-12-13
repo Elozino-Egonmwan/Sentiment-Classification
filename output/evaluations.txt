@@ -1,0 +1,35 @@
+BASELINE MODEL
+dev EVALUATION
+Accuracy  = 0.35098013068409123
+Precision  = 0.3513458606734004
+Recall  = 0.35098013068409123
+F_measure  = 0.35116290045343257
+100% 7499/7499 [00:00<00:00, 64234.94it/s]
+[2020-12-12 13:49:24,300 INFO] predictions written to output/baseline_dev.csv
+
+
+test EVALUATION
+Accuracy  = 0.8121082811041472
+Precision  = 0.8282104611449084
+Recall  = 0.8121082811041472
+F_measure  = 0.8200803376429894
+100% 7499/7499 [00:00<00:00, 61449.33it/s]
+[2020-12-13 02:28:01,993 INFO] predictions written to output/baseline_output.csv
+
+=========================================================================================
+SOTA MODEL
+dev EVALUATION
+Accuracy  = 0.7645019335911455
+Precision  = 0.7719135413104921
+Recall  = 0.7645019335911455
+F_measure  = 0.7681898607990008
+100% 7499/7499 [00:00<00:00, 60627.90it/s]
+[2020-12-13 18:43:18,423 INFO] predictions written to output/sota_dev.csv
+
+test EVALUATION
+Accuracy  = 1.0
+Precision  = 1.0
+Recall  = 1.0
+F_measure  = 1.0
+100% 6500/6500 [00:00<00:00, 60244.74it/s]
+[2020-12-13 20:42:19,492 INFO] predictions written to output/sota_output.csv
