@@ -31,4 +31,4 @@
 
 `!python src/sent_analysis.py -model 'baseline' -mode 'test'`
 
-* See outputs in `output` folder and evaluation results in 
+* See predictions and evaluations in `output` folder
