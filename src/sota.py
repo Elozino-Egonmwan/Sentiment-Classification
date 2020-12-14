@@ -50,7 +50,7 @@ class FinetuneTransformer(nn.Module):
         # softmax function
         softmax_out = self.softmax(out)
 
-        # return last sigmoid output and hidden state
+        # return softmax output and hidden state
         return softmax_out, hidden
     
     
