@@ -84,8 +84,8 @@ def infer(args, grouped_revs, freq_dist):
 
     #train to get better psuedo-labels
     #move to data_path -- this concatenates with train data 
-    out_file = join(args.output_path,'sota_output.csv')
-    shutil.move(out_file, join(args.data_path,'sota_output.csv'))
+    out_file = join(args.output_path,'baseline_output.csv')
+    shutil.move(out_file, join(args.data_path,'baseline_output.csv'))
 
     #run in train mode
     args.mode='train'
