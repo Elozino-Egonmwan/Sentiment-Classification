@@ -213,14 +213,14 @@ def model_wrapper(args,features,labels=None, reviews=None, len_before_padding=No
         infers = list(estimator.predict(input_fn=inp_fn))    
         print(infers)
         preds = [i["predictions"] for i in infers]
-        out_path = join(args.output_path,'sota_dev.csv')
+        out_path = join(args.output_path,'baseline_dev.csv')
         evaluate(labels['test'][:len_before_padding],preds[:len_before_padding],'dev')
         write_to_csv(out_path,reviews['test'][:len_before_padding],preds[:len_before_padding],labels['test'][:len_before_padding])
         
     else:
         infers = list(estimator.predict(input_fn=inp_fn))    
         preds = [i["predictions"] for i in infers]
-        out_path = join(args.output_path,'sota_output.csv')
+        out_path = join(args.output_path,'baseline_output.csv')
 
         if args.mode=='test':
             estimator.evaluate(input_fn=inp_fn)
