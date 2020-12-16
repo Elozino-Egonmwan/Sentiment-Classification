@@ -100,7 +100,7 @@ def infer(args, grouped_revs, freq_dist):
     neural_naiveBayes(args)
 
     #delete first pseudo-labels from data_path
-    os.remove(join(args.data_path,'sota_output.csv'))
+    os.remove(join(args.data_path,'baseline_output.csv'))
 
     #final labels
     grouped_revs, freq_dist = naiveBayes(args)
